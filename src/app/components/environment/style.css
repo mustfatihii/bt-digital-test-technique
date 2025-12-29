@@ -1,0 +1,28 @@
+.icon-center{
+    text-align: center;
+}
+
+
+
+
+.card-text{
+    text-align: center;
+}
+
+.box-style{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    margin-top: 16px;
+}
+
+.comment-style{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  padding-inline: 16px;
+  background-color: #25465f;
+}
+
