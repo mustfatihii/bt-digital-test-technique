@@ -73,22 +73,3 @@ export default function Hero() {
     );
 }
 
-
-/*
-
-<Container>
-                    <Columns align='ALIGNED_CENTER' gap={10}>
-                        <Column size={4} align="ALIGNED_CENTER" verticalAlign="ALIGNED_CENTER">
-                            
-                        </Column>
-                        <Column 
-                         size={4} 
-                         align="ALIGNED_CENTER" 
-                         verticalAlign="ALIGNED_CENTER">
-                            <Image 
-                            alt="brokenMobile" 
-                            src={"/assets/photos/brokenMobile.jpg"} />
-                        </Column>
-                    </Columns>
-                </Container>
-                */
