@@ -5,9 +5,7 @@ import "./style.css";
 export default function TakeAway() {
     return (
     <Section backgroundSrc="./assets/photos/kvgris.jpg" className="section-style">
-         <Button disabled>
-            À retenir
-         </Button>
+         <Button variant="SECONDARY"> À Retenir </Button>
       </Section>
     );
 }
