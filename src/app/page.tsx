@@ -10,10 +10,10 @@ import LegalSection from "./components/legal/legal";
 import NavSection from "./components/navSection/navSection";
 import ProblemsSection from "./components/problemsSection/problemsSection";
 import QuestionsSection from "./components/questions/questions";
-import Section1 from "./components/section1/section1";
-import Section2 from "./components/section2/section2";
 import TakeAway from "./components/takeawaySection/takeawaySection";
 import Tips from "./components/tips/tips";
+import WeFix from "./components/wefix/wefix";
+import Hero from "./components/hero/hero";
 
 const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -21,9 +21,9 @@ const isMobile = window.matchMedia("(max-width: 768px)").matches;
 export default function Page() {
     return (
         <main>
-            <Section1></Section1>
+            <Hero></Hero>
             {!isMobile&&<NavSection/>}
-            <Section2></Section2>
+            <WeFix></WeFix>
             <ExpressRepairSection></ExpressRepairSection>
             <AvantagesSection></AvantagesSection>
             <ForfaitsSection></ForfaitsSection>

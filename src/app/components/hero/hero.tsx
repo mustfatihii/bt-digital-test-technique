@@ -16,7 +16,7 @@ import "./style.css";
 
 const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
-export default function Section1() {
+export default function Hero() {
     return (
             <Section backgroundColor="MAIN" >
                 <Rows>

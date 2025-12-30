@@ -4,7 +4,7 @@ import { Column, Columns, Section, Title, Image, Link, Text, Rows, Row, RadiusVa
 
 import "./style.css";
 
-export default function Section2() {
+export default function WeFix() {
     return (
      <Section backgroundColor="NEUTRAL_FADE">
         <Rows gap={5}>
